@@ -14,8 +14,6 @@ export default ({content, url}) => {
           height={24}
           className="rounded-full"
         />
-        <span>Andreu</span>
-        <span>1 dia</span>
       </div>
       <div>
         <Image src={url} alt="post" width={448} height={448} />
@@ -29,7 +27,7 @@ export default ({content, url}) => {
       </div>
       <div>
         <p>
-          <span className="font-bold">Andreu</span> {content}
+          <span className="font-bold">Pablo</span> {content}
         </p>
       </div>
       <div>
